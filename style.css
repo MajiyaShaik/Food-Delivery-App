@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    background-color: #ffffff;
+    height: 12vh;
+}
+.container-fluid{
+    padding-left: 42px;
+}
+.container-fluid .pic{
+    color: #ffa174;
+}
+.main{
+    background-image: url(./images/bg.png);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:88vh;
+    color: whitesmoke;
+}
+.main-content p{
+    padding-top: 150px;
+}
+.main .btn{
+    margin-left: 43%;
+}
+.row img{
+    height: 250px;
+}
+.card{
+    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+.main2{
+    height: 80vh;
+}
+.main2 .box{
+    background-color: #fe5c5d;
+    color: whitesmoke;
+    margin-top: 200px;
+    position: relative;
+    height: 70vh;
+}
+.box1 {
+    flex-direction: column;
+    margin-top: 8%;
+    flex-basis: 50%;
+    padding-left: 200px;
+}
+.box3{
+    background-color: rgb(58, 57, 57);
+    height: 70px;
+    width: 200px;
+}
+.box3 .app{
+    font-size: 22px;
+}
+.phone img{
+    padding-left: 180px;
+    transform:rotate(25deg);
+    position: absolute;
+    bottom: 15%;
+}
+.main3 .card1{
+    background-color: #eff6fe;
+    height: 350px;
+    width: 650px;
+}
+.main3 .card2{
+    background-color: rgb(250, 237, 240);
+    height: 350px;
+    width: 650px;
+}
+.main4{
+    height: 100vh;
+}
+.main4 .container{
+    margin-left: 120px;
+}
+.main4 .container img{
+    height: 100px;
+    width: 100px;
+}
+.main5{
+    background-color: #333a42;
+    color: whitesmoke;
+    height: 50vh;
+}
+@media screen and (max-width:480px){
+
+    .main2{
+        height: 100vh;
+        background-color: #fe5c5d;
+        margin-top: 100px;
+        font-size: 12px;
+        position: unset;
+    }
+    .main2 .box1{
+        height: 50vh;
+        padding-left: 30px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .main2 .box{
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+    }
+    .main2 .box2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+    }
+    .box3{
+        background-color: rgb(58, 57, 57);
+        height:40px;
+        width: 120px;
+        line-height: 14px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .box4 p{
+        font-size: 8px;
+        margin-left:1px;
+    }
+    .box4 .app{
+        font-size: 12px;
+    }
+    .box3 svg{
+        height: 12px;
+    }
+    .box3 img{
+        height: 18px;
+    }
+    .phone{
+        height: 50vh;
+    }
+    .phone img{
+        height: 250px;
+        position:static;
+        margin-right: 80px;
+        padding-left: 120px;
+        margin-top: 10px;
+    }
+    .main3{
+        display: flex;
+        flex-direction: column;
+    }
+    .main3 .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .main3 .responsive{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main3 .responsive h5{
+        text-align: center;
+    }
+    .main3 .responsive p{
+        text-align: center;
+        padding: 0 120px;
+    }
+    .main3 .responsive .btn{
+         margin-left: 220px;
+    }
+    .main3 .card1{
+        height: 100vh;
+        margin-top: 80px;
+    }
+    .main3 .responsive img{
+        margin-left: 200px;
+        height: 250px;
+        width: 250px;
+    }
+    .main3 .card2 .chef{
+        padding-left: 200px;
+    }
+    .main3 .card2{
+        height: 100vh;
+        margin-top: 10px;
+    }
+    .main4{
+        height: 100%;
+    }
+    .main4 .row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 50px;
+    }
+    .main4 .card{
+        margin-top: 20px;
+   }
+   .main4 .card img{
+         margin-top: 25px;
+   }
+   .main5{
+    height: 100%;
+   }
+}
